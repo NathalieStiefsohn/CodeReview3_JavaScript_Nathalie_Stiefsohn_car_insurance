@@ -1,0 +1,164 @@
+body * {
+	/*border: 1px solid;*/
+	/*margin:5px;
+	padding: 5px;*/
+	font-family: sans-serif;
+	color: black
+	/*position: relative;*/
+
+}
+
+.wrapper {
+	display: flex;
+	/*border:1px solid red;*/
+}
+
+header {
+	background-image: url(http://www.wmib.ca/wp-content/uploads/2014/12/153484562-narrow.jpg);
+	background-size: 100% 100%;
+	height: 200px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: flex-end;*/
+	/*border: none;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+header nav {
+	width: 50%;
+	/*bottom: 0;*/
+	align-self: flex-end;
+	text-align: right;
+}
+
+header nav ul li {
+	display: inline-flex;
+	color: white;
+	margin-right: 3%;
+}
+
+a:link  {
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a:visited {
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a:hover {
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+a:active {
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+header h1 {
+	color: #222222;
+	font-weight: bolder;
+	font-size: 3em;
+	/*border: none;*/
+	padding-left: 3%;
+}	
+header h3 {
+	color: white;
+	/*border: none;*/
+	padding-left: 5%;
+}
+
+main {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 10px;
+	padding:5px;
+	width: 80%;
+	/*background-color: #FDA600;*/
+
+	background-color: #f7882f;
+	-webkit-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+}
+
+main h2 {
+	text-align: center;
+	color:white;
+}
+
+#allemployees, #alllocations {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	margin:5px;
+	margin-top: 20px;
+	/*align-content: space-around;*/
+}
+
+.employee {
+	width: 30%;
+	height: 300px;
+	/*background-color: #dcc7aa;*/
+	background-color: white;
+	padding:5px;
+	margin:5px;
+	-webkit-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.name, .email, .image {
+	padding: 5px;
+	margin: 5px;
+}
+
+.name {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.picture {
+	height: 75%;
+	display: flex;
+}
+.picture img {
+	/*display: inline-flex;*/
+	width: 100%;
+}
+
+footer {
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	padding-left: 20px;
+	width: 80%;
+	height: 20px;
+	/*font-size: small;*/
+	background-color: white;
+	-webkit-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 13px 0px rgba(0,0,0,0.75);
+}
