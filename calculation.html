@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculate quote</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="flex_header">
+            <div class="headings">
+                <h1>CarLife</h1>
+                <h3>You drive. We'll take care of the rest.</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="HOME">HOME</a></li>
+                    <li><a href="locations.html" title="LOCATIONS">LOCATIONS</a></li>
+                    <li><a href="calculation.html" title="CALCULATE QUOTE">CALCULATE QUOTE</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Calculate your quote</h2>
+            <hr>
+            <div class="inputform">
+                <div class="form">
+                    <div class="inputs">
+                        <h4>First Name</h4>
+                        <input type="text" name="firstname" id="firstname" class="input">
+                        <h4>Family Name</h4>
+                        <input type="text" name="familname" id="familyname" class="input">
+                        <h4>Age</h4>
+                        <input type="text" name="age" id="age" class="input">
+                        <h4>Gender</h4>
+                        <form id="genderform">
+                            <input type="radio" name="gender" class="input" value="male" checked="checked">Male
+                            <br>
+                            <input type="radio" name="gender" class="input" value="female">Female
+                            <br>
+                        </form>
+                    </div>
+                    <div class="inputs">
+                        <h4>Country of origin</h4>
+                        <form id="countryform">
+                            <input type="radio" name="country" class="input" value="Austria" checked="checked">Austria
+                            <br>
+                            <input type="radio" name="country" class="input" value="EU">EU
+                            <br>
+                            <input type="radio" name="country" class="input" value="Other">Other
+                            <br>
+                        </form>
+                        <h4>PS</h4>
+                        <input type="text" name="ps" id="ps" class="input">
+                        <div id="submit">
+                            <h4>You are just one click away from your quote.</h4>
+                            <button id="submitbutton">calculate quote</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form" id="output">
+                <h2 id="insuranceheadding"></h2>
+                <p id="insurancetext"></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            &copy; All rights reserved
+        </footer>
+        <script type="text/javascript" src="script_calculation.js"></script>
+</body>
+<!-- AIzaSyD1uLf_B30hDJt2HgBpAK5dCRSubZlHDig -->
+
+</html>
