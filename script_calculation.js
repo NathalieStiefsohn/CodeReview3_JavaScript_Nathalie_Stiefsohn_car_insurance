@@ -84,9 +84,21 @@ function calc() {
         } //end of insurancequote function 
     insurancequote()
 
+var anrede = function () {
+	if (insurance.gender=="male") {
+		document.getElementById("insurancetext").innerHTML = "<p>Dear Mr. " +insurance.firstname +" "+insurance.familyname+" based on the data entered in our form. We could calculate a monthly insurance quote of <b>"+priceps+"€</b> for you!</p><p> If you are interested in this offer you can book it now! </p> <br> <a href='#'><img src='pictures/bookhere.png' alt='bookhere' id='bookhere'></a>" ;
+
+	} else {
+		document.getElementById("insurancetext").innerHTML = "<p>Dear Mrs. " +insurance.firstname +" "+insurance.familyname+" based on the data entered in our form. We could calculate a monthly insurance quote of <b>"+priceps+"€</b> for you!</p><p> If you are interested in this offer you can book it now! </p> <br> <a href='#'><img src='pictures/bookhere.png' alt='bookhere' id='bookhere'></a>" ;
+	} //end else
+}//end function anrede
+anrede();
+document.getElementById("insuranceheading").textContent = "Your insurance quote has been calculated!";
+
 
 
 
 } //end of calc function
 
 $("#submitbutton").click(calc)
+

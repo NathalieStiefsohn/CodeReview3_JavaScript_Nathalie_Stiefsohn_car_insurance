@@ -194,6 +194,7 @@ main h2 {
     width: 50%;
     background-color: white;
     margin: 5px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     -webkit-box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
@@ -202,7 +203,7 @@ main h2 {
 }
 
 .inputs {
-    padding: 10px;
+    padding: 30px;
     /*border: 1px solid;*/
     width: 50%;
 }
@@ -210,8 +211,42 @@ main h2 {
 #submit {
 	margin-top: 30px;
 }
+#output {
+width: 50%;
+    background-color: white;
+    margin: 5px;
+    margin-top:20px;
+    padding:30px;
+    -webkit-box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+}
 
+#headinginsurance {
+	text-align: center;	
+}
 
+#insuranceheading {
+	
+	font-weight: bolder;
+	color: darkred;
+	
+}
+#insurancetext {
+	text-align: center;
+}
+
+#insurancetext {
+	display: flex;
+	flex-direction: column;
+}
+
+#insurancetext img {
+	width:50%;
+	/*align-items: center;*/
+	margin-left: auto;
+	margin-right: auto;
+}
 /*end of calculate your quote*/
 
 footer {
